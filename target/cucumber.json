@@ -1,0 +1,298 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 1247000000,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "I access WebdriverUniversity homepage",
+            "match": {
+              "location": "Steps.ContactUsSteps.iAccessWebdriverUniversityHomepage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 741000000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I click on the contact us button",
+            "match": {
+              "location": "Steps.ContactUsSteps.iClickOnTheContactUsButton()"
+            },
+            "keyword": "When "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-08-26T14:28:11.524Z",
+        "before": [
+          {
+            "result": {
+              "duration": 3446000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Steps.ContactUsSteps.beforeHook()"
+            }
+          }
+        ],
+        "line": 7,
+        "name": "Enter information in the \"Contact Us\" form and push \"Reset\" button",
+        "description": "",
+        "id": "submit-data-to-webdriveruniversity.com-using-\"contact-us\"-form;enter-information-in-the-\"contact-us\"-form-and-push-\"reset\"-button",
+        "after": [
+          {
+            "result": {
+              "duration": 176000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Steps.ContactUsSteps.afterHook()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 379000000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I enter a first name",
+            "match": {
+              "location": "Steps.ContactUsSteps.iEnterAFirstName()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 121000000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I enter a last name",
+            "match": {
+              "location": "Steps.ContactUsSteps.iEnterALastName()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 134000000,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I enter a email address",
+            "match": {
+              "location": "Steps.ContactUsSteps.iEnterAEmailAddress()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 125000000,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "I enter a comment",
+            "match": {
+              "location": "Steps.ContactUsSteps.iEnterAComment()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 97000000,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "I click on Reset button",
+            "match": {
+              "location": "Steps.ContactUsSteps.iClickOnResetButton()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "The information should be cleaned up in the form",
+            "match": {
+              "location": "Steps.ContactUsSteps.theInformationShouldBeCleanedUpInTheForm()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Submit data to webdriveruniversity.com using \"Contact Us\" form",
+    "description": "  If user click on Reset button all the info should be removed from the form",
+    "id": "submit-data-to-webdriveruniversity.com-using-\"contact-us\"-form",
+    "keyword": "Feature",
+    "uri": "file:src/test/java/Features/ContactUsReset.feature",
+    "tags": []
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 1161000000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I access WebdriverUniversity homepage",
+            "match": {
+              "location": "Steps.ContactUsSteps.iAccessWebdriverUniversityHomepage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 160000000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I click on the contact us button",
+            "match": {
+              "location": "Steps.ContactUsSteps.iClickOnTheContactUsButton()"
+            },
+            "keyword": "When "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-08-26T14:28:18.179Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1621000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Steps.ContactUsSteps.beforeHook()"
+            }
+          }
+        ],
+        "line": 8,
+        "name": "Submit information using the \"Contact Us\" form",
+        "description": "",
+        "id": "submit-data-to-webdriveruniversity.com-using-\"contact-us\"-form;submit-information-using-the-\"contact-us\"-form",
+        "after": [
+          {
+            "result": {
+              "duration": 153000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Steps.ContactUsSteps.afterHook()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 379000000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I enter a first name",
+            "match": {
+              "location": "Steps.ContactUsSteps.iEnterAFirstName()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 95000000,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I enter a last name",
+            "match": {
+              "location": "Steps.ContactUsSteps.iEnterALastName()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 105000000,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "I enter a email address",
+            "match": {
+              "location": "Steps.ContactUsSteps.iEnterAEmailAddress()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 110000000,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "I enter a comment",
+            "match": {
+              "location": "Steps.ContactUsSteps.iEnterAComment()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1024000000,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "I click on Submit button",
+            "match": {
+              "location": "Steps.ContactUsSteps.iClickOnSubmitButton()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "The information should be successfully submitted via contact form",
+            "match": {
+              "location": "Steps.ContactUsSteps.theInformationShouldBeSuccessfullySubmittedViaContactForm()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Submit data to webdriveruniversity.com using \"Contact Us\" form",
+    "description": "  A user should be able to submit information via the contact us form",
+    "id": "submit-data-to-webdriveruniversity.com-using-\"contact-us\"-form",
+    "keyword": "Feature",
+    "uri": "file:src/test/java/Features/ContactUsSubmit.feature",
+    "tags": []
+  }
+]
